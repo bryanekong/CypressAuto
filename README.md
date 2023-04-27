@@ -7,7 +7,7 @@ This is a Cypress Cucumber Automation Framework for Hostfully.
 
 ## Installation
 
-1.  Clone this repository to your local machine using 'git clone https://github.com/bryanekong/hostfully.git'
+1.  Clone this repository to your local machine using `git clone https://github.com/bryanekong/hostfully.git`
 2.  Install dependencies using `npm install`
 
 ## Usage
