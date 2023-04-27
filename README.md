@@ -3,7 +3,7 @@
 
 ## Description
 
-This is a Cypress Cucumber Automation Framework for Hostfully.
+This is a Cypress Cucumber Automation Framework for Hostfully Assessment for Junior QA Engineer Position.
 
 ## Installation
 
@@ -16,6 +16,18 @@ To run tests:
 
 -   `npm run tests`: Runs tests in headed mode using Chrome browser and executes all feature files located in the `cypress/e2e` folder.
 -   `npm run test-in-headless`: Runs tests in headless mode using Chrome browser and executes all feature files located in the `cypress/e2e` folder.
+
+## Adding a Computer
+
+This repository contains the feature file and step definitions for adding a computer to the computer database.
+
+### Feature File
+
+The feature file `Add_Computer.feature` specifies the various scenarios for adding a computer to the database with valid and invalid dates and computer names.
+
+## Step Definitions
+
+The step definitions for the feature file are located in `Add_Computer_Steps.js`. The `Given`, `When`, and `Then` statements are defined using the `@badeball/cypress-cucumber-preprocessor` library.
 
 ## Author
 
@@ -41,4 +53,4 @@ This framework is licensed under the ISC license.
     -   `messages`: Generates an NDJSON report of the test run.
     -   `json`: Generates a JSON report of the test run.
 
-**Note:** You may need to install Chrome browser to run the tests.
+**Note:** You will need to install Chrome browser to run the tests.
