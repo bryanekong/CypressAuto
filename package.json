@@ -18,6 +18,19 @@
     "ts-loader": "^9.4.2"
   },
   "cypress-cucumber-preprocessor": {
-    "stepDefinitions": "cypress/support/step_Definitions/**/*.js"
+    "stepDefinitions": "cypress/support/step_Definitions/**/*.js",
+    "html": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-html/cucumber-report.html"
+    },
+    "messages": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-ndjson/cucumber-report.ndjson"
+    },
+    "json": {
+      "enabled": true,
+      "formatter": "cucumber-json-formatter",
+      "output": "cypress/reports/cucumber-json/cucumber-report.json"
+    }
   }
 }
