@@ -1,0 +1,23 @@
+{
+  "name": "hostfully",
+  "version": "1.0.0",
+  "description": "Cypress Cucumber Automation Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tests": "cypress run --headed --browser chrome --spec 'cypress/e2e/*.feature'",
+    "test-in-headless": "cypress run --browser chrome --spec 'cypress/e2e/*.feature'"
+  },
+  "author": "Bryan Aniedi-Ekong",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.6.0",
+    "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
+    "ts-loader": "^9.4.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/support/step_Definitions/**/*.js"
+  }
+}
