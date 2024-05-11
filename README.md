@@ -3,7 +3,7 @@
 
 ## Description
 
-This is a Cypress Cucumber Automation Framework for Hostfully Assessment for Junior QA Engineer Position.
+This is a Cypress Cucumber Automation Framework.
 
 ## Installation
 
