@@ -1,6 +1,5 @@
 
-# Hostfully
-
+# Cypress Automation with TypeScript
 ## Description
 
 This is a Cypress Cucumber Automation Framework.
